@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_course"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.school.programming.programmingschool.CourseActivity"
+    tools:showIn="@layout/activity_course">
+
+<!--
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+-->
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <!--Introduction Controls-->
+
+            <TableRow android:id="@+id/introTblRow">
+
+                <TextView
+                    android:text="Introduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/introTV"
+                    android:textSize="18sp"
+                    android:textColor="@color/black_color"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="10dp"/>
+            </TableRow>
+
+            <!--Java Variabe Types-->
+            <TableRow android:id="@+id/variableTypesTblRow">
+
+
+                <TextView
+                    android:text="Java Variable Types"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/typesTV"
+                    android:textSize="18sp"
+                    android:textColor="@color/black_color"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="26dp" />
+            </TableRow>
+
+            <!--Java Variabe Declaration-->
+
+            <TableRow android:id="@+id/variableDeclarationTblRow">
+
+                <TextView
+                    android:text="Java Variable Declaration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/declarationTV"
+                    android:textSize="18sp"
+                    android:textColor="@color/black_color"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="26dp" />
+            </TableRow>
+
+            <!--Java Variabe Assignment-->
+            <TableRow android:id="@+id/variableAssignmentTblRow">
+
+                <TextView
+                    android:text="Java Variable Assignment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/assignmentTV"
+                    android:textSize="18sp"
+                    android:textColor="@color/black_color"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="26dp" />
+            </TableRow>
+
+            <!--Java Variabe Reading-->
+            <TableRow android:id="@+id/variableReadingTblRow">
+
+                <TextView
+                    android:text="Java Variable Reading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/readingTV"
+                    android:textSize="18sp"
+                    android:textColor="@color/black_color"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="26dp" />
+            </TableRow>
+
+            <!--Java Variabe Naming Conventions-->
+            <TableRow android:id="@+id/variableNamingConventionsTblRow">
+
+                <TextView
+                    android:text="Java Variable Naming Conventions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/namingConvTV"
+                    android:textSize="18sp"
+                    android:textColor="@color/black_color"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="26dp" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

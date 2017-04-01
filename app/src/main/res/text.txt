@@ -1,0 +1,19 @@
+
+
+A Java variable is a piece of memory that can contain a data value. A variable thus has a data type. Data types are covered in more detail in the text on Java data types.
+
+Variables are typically used to store information which your Java program needs to do its job. This can be any kind of information ranging from texts, codes (e.g. country codes, currency codes etc.) to numbers, temporary results of multi step calculations etc.
+
+In the code example below, the main() method contains the declaration of a single integer variable named number. The value of the integer variable is first set to 10, and then 20 is added to the variable afterwards.
+
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        int number = 10;
+
+        number = number + 20;
+    }
+
+}
+

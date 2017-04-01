@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Variables in Java</string>
+    <string name="welcome_message">Learn about variables in the Java programming language. This app will help you learn about variables in Java pretty quickly and will assess your progress while you are going through the material</string>
+    <string name="title_contentoverview_list">Items</string>
+    <string name="title_contentoverview_detail">ContentOverview Detail</string>
+    <string name="title_activity_course">course</string>
+    <string name="ok">course</string>
+    <string name="title_activity_stage">Stage</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_variable_types">VariableTypesActivity</string>
+    <string name="title_activity_variable_declaration">VariableDeclarationActivity</string>
+    <string name="title_activity_variable_assignment">VariableAssignmentActivity</string>
+    <string name="title_activity_variable_reading">VariableReadingActivity</string>
+    <string name="title_activity_variable_naming_conventions">VariableNamingConventionsActivity</string>
+    <string name="types_notes_content">
+<![CDATA[
+<h2 style="padding-top:20px">Introduction</h2>
+<p>A Java variable is a piece of memory that can contain a data value. A variable thus has a data type.</p>
+<p>Variables are typically used to store information which your Java program needs to do its job. This can be any kind of information ranging from texts, codes (e.g. country codes, currency codes etc.) to numbers, temporary results of multi step calculations etc.</p>
+<p>In the code example below, the <code style="color:red;background:light-grey">main()</code> method contains the declaration of a single integer variable named <code style="color:red;background:light-grey">number</code>. The value of the integer variable is first set to 10, and then 20 is added to the variable afterwards.</p>
+<div>public class MyClass {<br>
+
+ &emsp;   <code style="color:red">public</code> static void main(String[] args) {<br>
+
+ &emsp;      &emsp;int number = 10;<br>
+
+ &emsp;      &emsp; number = number + 20;<br>
+    &emsp;}<br>
+
+}
+</div>
+<p><a name="java-variable-types"></a></p>
+<h2>Java Variable Types</h2>
+<p>In Java there are four types of variables:</p>
+<ul>
+<li>Non-static fields</li>
+<li>Static fields</li>
+<li>Local variables</li>
+<li>Parameters</li>
+</ul>
+<p>A non-static field is a variable that belongs to an object. Objects keep their internal state in non-static fields. Non-static fields are also called instance variables, because they belong to instances (objects) of a class. </p>
+<p>A static field is a variable that belongs to a class. A static field has the same value for all objects that access it. Static fields are also called class variables. </p>
+<p>A local variable is a variable declared inside a method. A local variable is only accessible inside the method that declared it. </p>
+<p>A parameter is a variable that is passed to a method when the method is called. Parameters are also only accessible inside the method that declares them, although a value is assigned to them when the method is called. </p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+]]>
+</string>
+
+    <string name="title_activity_types">TypesActivity</string>
+    <string name="button">Button</string>
+    <string name="title_activity_tabbed">tabbed</string>
+    <string name="title_activity_tabbed22222">tabbed22222</string>
+
+</resources>
