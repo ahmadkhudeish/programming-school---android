@@ -5,3 +5,7 @@ People use smart phones and mobile apps every day to achieve different tasks, th
 I present a proof of concept of a mobile app that acts as a learning tool to enhance the learning of programming languages. The mobile app is based on a research I conducted on the principles of usability and learning. My findings suggest that the choice of colors of the app, the use of appropriate feedback, and the frequent assessment of the learning outcome are some of
 the principles that could have major impact on learning. These principles could potentially enhance the learning of programming
 through mobile apps and make learning through a mobile app more engaging to users.
+
+## Running the App
+
+You will need to have Android Studio installed on your machine and you can run it from an emulator, otherwise you can plug your mobile phone in developer mode and install it from there
